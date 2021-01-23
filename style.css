@@ -322,8 +322,9 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: "YuGothic",  Yu Gothic,  sans-serif;
+  font-family: "Noto Serif JP";
   color: #39393B;
+  background-color: #F8F7F5;
 }
 
 img {
@@ -363,15 +364,85 @@ img {
 .fv__text {
   color: #FFFFFF;
   font-size: 3.2rem;
-  font-family: "Noto Serif JP";
+  font-family: "Noto Sans JP";
   position: absolute;
   top: 75%;
   left: 50%;
+  letter-spacing: 4px;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   white-space: nowrap;
 }
 
+.concept {
+  margin-top: 140px;
+  padding-bottom: 203px;
+}
 
+.concept__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.concept__img {
+  background-image: url(./img/conce.jpg);
+  background-size: cover;
+  height: 420px;
+  width: 550px;
+  margin-right: 120px;
+  vertical-align: bottom;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.concept__title--en {
+  font-size: 1.4rem;
+  font-family: "Libre Baskerville";
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+
+.concept__title--ja {
+  font-size: 3.6rem;
+  font-family: "Noto Sans JP";
+  font-weight: 200;
+  letter-spacing: 4px;
+  margin-top: -10px;
+}
+
+.concept__text {
+  font-size: 1.4rem;
+  font-family: "Hiragino Kaku Gothic ProN";
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-top: 56px;
+}
+
+.menu__wrapper {
+  margin-left: 480px;
+  height: 600px;
+}
+
+.menu__title--en {
+  font-size: 1.4rem;
+  font-family: "Libre Baskerville";
+  letter-spacing: 4px;
+}
+
+.menu__title--ja {
+  font-size: 3.6rem;
+  font-family: "Noto Sans JP";
+  font-weight: 200;
+  letter-spacing: 4px;
+}
+
+.menu__text {
+  font-size: 1.4rem;
+  font-family: "Hiragino Kaku Gothic ProN";
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-top: 56px;
+}
 /*# sourceMappingURL=style.css.map */

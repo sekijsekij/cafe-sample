@@ -1,11 +1,39 @@
 .concept {
-	&__wrapper {
-		margin-top: 140px;
+	margin-top: 140px;
+	padding-bottom: 203px;
+
+	&__wrapper{
+		display: flex;
+		// overflow: hidden;
 	}
+
 	&__img {
-		background-image: url(./img/concept.jpg);
-		background-position: center;
-		height: 100px;
-		width: 100px;
+		background-image: url(./img/conce.jpg);
+		background-size: cover;
+		height: 420px;
+		width: 550px;
+		margin-right: 120px;
+		vertical-align: bottom;
+		object-fit: cover;
+	}
+	&__title--en {
+		font-size: 1.4rem;
+		font-family: "Libre Baskerville";
+		letter-spacing: 2px;
+		margin-top: 50px;
+	}
+	&__title--ja {
+		font-size: 3.6rem;
+		font-family: "Noto Sans JP";
+		font-weight: 200;
+		letter-spacing: 4px;
+		margin-top: -10px;
+	}
+	&__text {
+		font-size: 1.4rem;
+		font-family: "Hiragino Kaku Gothic ProN";
+		letter-spacing: 2px;
+		line-height: 30px;
+		margin-top: 56px;
 	}
 }
