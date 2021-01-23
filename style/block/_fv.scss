@@ -1,0 +1,39 @@
+.fv {
+position: relative;
+	&__wrapper {
+		background-image: url(./img/FV.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	
+	}
+	&__filter {
+		height: 100vh;
+		max-height: 700px;
+		width: 100%;
+		background-color: rgba(0,0,0,0.3);
+		object-fit: cover;
+	}
+	&__logo {
+		position: absolute;
+		top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+	}
+	&__text {
+		color: $cwhite;
+		font-size: 3.2rem;
+		font-family: "Noto Serif JP";
+		position: absolute;
+		top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		white-space: nowrap;
+	}
+
+	
+}
