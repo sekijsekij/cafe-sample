@@ -545,6 +545,10 @@ li {
   margin-top: 24px;
 }
 
+.customize__topping {
+  padding: 0px;
+}
+
 .customize__topping--text {
   font-weight: normal;
   font-size: 1.4rem;
@@ -553,6 +557,11 @@ li {
 
 .customize__topping--text:first-of-type {
   margin-top: 26px;
+  text-indent: .8em;
+}
+
+.customize__topping--text:last-of-type {
+  text-indent: -2em;
 }
 
 .access {
@@ -576,7 +585,7 @@ li {
 
 .access__title--ja {
   font-size: 3.6rem;
-  font-weight: normal;
+  font-weight: 400;
   letter-spacing: 0.22em;
   font-family: "Noto Sans JP";
   text-align: center;
@@ -593,7 +602,8 @@ li {
 
 .access__address {
   color: #FFFFFF;
-  margin-left: 54px;
+  margin-left: 10%;
+  margin-right: 6%;
   margin-top: 122px;
   line-height: 1.8;
 }
@@ -603,7 +613,8 @@ li {
 }
 
 .news {
-  height: 500px;
+  margin-left: 260px;
+  overflow: hidden;
 }
 
 .news__title {
@@ -611,7 +622,6 @@ li {
   letter-spacing: 0.28em;
   font-family: "Helvetica";
   font-weight: normal;
-  margin-left: 260px;
   margin-top: 103px;
   margin-bottom: 15px;
 }
@@ -621,13 +631,139 @@ li {
   font-weight: normal;
   letter-spacing: 0.22em;
   font-family: "Noto Sans JP";
-  margin-left: 260px;
   margin-bottom: 56px;
+}
+
+.news__img {
+  background-image: url(./img/news1.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+}
+
+.news__img--2 {
+  background-image: url(./img/news2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #f8f7f5;
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+}
+
+.news__img--3 {
+  background-image: url(./img/news3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #f8f7f5;
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+}
+
+.news__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 40px;
+  padding-bottom: 41px;
+  border-top: 1px dotted #39393B;
+  border-bottom: 1px dotted #39393B;
+  width: 960px;
+}
+
+.news__tag--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news__time {
+  font-size: 1.4rem;
+  font-family: "Helvetica";
+  font-weight: nomal;
+}
+
+.news__tag {
+  background-color: #ea8e03;
+  color: #FFFFFF;
+  font-family: "Hiragino Kaku Gothic ProN";
+  margin-left: 35px;
+  width: 94px;
+  text-align: center;
+}
+
+.news__text {
+  font-size: 1.8rem;
+  font-family: "Hiragino Kaku Gothic ProN";
+  line-height: 2.7;
+  font-weight: 600;
+  margin-bottom: 27px;
+}
+
+.news__more {
+  font-size: 1.4rem;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-weight: 300;
+}
+
+a {
+  display: block;
 }
 
 .footer {
   height: 404px;
   width: 100%;
   background-color: #39393B;
+  margin-top: 100px;
+  position: relative;
+}
+
+.footer__logo {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  margin: auto;
+}
+
+.footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  margin: auto;
+}
+
+.footer__menu {
+  color: #FFFFFF;
+  font-family: "Helvetica";
+  font-size: 1.4rem;
+  line-height: 3;
+}
+
+.footer__bottom {
+  color: #FFFFFF;
+  font-family: "Helvetica";
+  position: absolute;
+  top: 84%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  margin: auto;
+}
+
+span {
+  margin-left: 8px;
+  margin-right: 8px;
 }
 /*# sourceMappingURL=style.css.map */

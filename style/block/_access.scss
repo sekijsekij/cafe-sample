@@ -1,5 +1,6 @@
 .access {
 	margin-top: 293px;
+
 	&__wrapper {
 		display: flex;
 	}
@@ -12,7 +13,7 @@
 		margin-bottom: 15px;
 		&--ja {
 			font-size: 3.6rem;
-			font-weight: normal;
+			font-weight: 400;
 			letter-spacing: 0.22em;
 			font-family: "Noto Sans JP";
 			text-align: center;
@@ -28,7 +29,8 @@
 	}
 	&__address {
 		color: $cwhite;
-		margin-left: 54px;
+		margin-left: 10%;
+		margin-right: 6%;
 		margin-top: 122px;
 		line-height: 1.8;
 	}

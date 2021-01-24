@@ -1,21 +1,87 @@
 .news {
-	height: 500px;
-	
+	// height: 500px;
+	margin-left: 260px;
+	overflow: hidden;
+
 	&__title {
 		font-size: 1.4rem;
 		letter-spacing: 0.28em;
 		font-family: "Helvetica";
 		font-weight: normal;
-		margin-left: 260px;
 		margin-top: 103px;
 		margin-bottom: 15px;
+
 		&--ja {
 			font-size: 3.6rem;
 			font-weight: normal;
 			letter-spacing: 0.22em;
 			font-family: "Noto Sans JP";
-			margin-left: 260px;
 			margin-bottom: 56px;
 		}
 	}
+	&__img {
+		background-image: url(./img/news1.jpg);
+		background-size: cover;
+		width: 100px;
+		height: 100px;
+		margin-right: 40px;
+		&--2 {
+			background-image: url(./img/news2.jpg);
+			background-size: cover;
+			background-position: center;
+			background-color: #f8f7f5;
+			width: 100px;
+			height: 100px;
+			margin-right: 40px;
+		}
+		&--3 {
+			background-image: url(./img/news3.jpg);
+			background-size: cover;
+			background-position: center;
+			background-color: #f8f7f5;
+			width: 100px;
+			height: 100px;
+			margin-right: 40px;
+		}
+	}
+	&__wrapper {
+		display: flex;
+		justify-content: flex-start;
+		padding-top: 40px;
+		padding-bottom: 41px;
+		border-top: 1px dotted $cblack;
+		border-bottom: 1px dotted $cblack;
+		width: 960px;
+	}
+	&__tag--wrapper {
+		display: flex;
+	}
+	&__time {
+		font-size: 1.4rem;
+		font-family: "Helvetica";
+		font-weight: nomal;
+	}
+	&__tag {
+		background-color: #ea8e03;
+		color: $cwhite;
+		font-family: "Hiragino Kaku Gothic ProN";
+		margin-left: 35px;
+		width: 94px;
+		text-align: center;
+	}
+	&__text {
+		font-size: 1.8rem;
+		font-family: "Hiragino Kaku Gothic ProN";
+		line-height: 2.7;
+		font-weight: 600;
+		margin-bottom: 27px;
+	}
+	&__more {
+		font-size: 1.4rem;
+		font-family: "Hiragino Kaku Gothic ProN";
+		font-weight: 300;
+	}
+}
+a {
+	display: block;
 }
