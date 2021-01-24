@@ -1,0 +1,21 @@
+.news {
+	height: 500px;
+	
+	&__title {
+		font-size: 1.4rem;
+		letter-spacing: 0.28em;
+		font-family: "Helvetica";
+		font-weight: normal;
+		margin-left: 260px;
+		margin-top: 103px;
+		margin-bottom: 15px;
+		&--ja {
+			font-size: 3.6rem;
+			font-weight: normal;
+			letter-spacing: 0.22em;
+			font-family: "Noto Sans JP";
+			margin-left: 260px;
+			margin-bottom: 56px;
+		}
+	}
+}

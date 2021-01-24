@@ -1,0 +1,40 @@
+.access {
+	margin-top: 293px;
+	&__wrapper {
+		display: flex;
+	}
+	&__title {
+		font-size: 1.4rem;
+		letter-spacing: 0.28em;
+		font-family: "Helvetica";
+		font-weight: normal;
+		text-align: center;
+		margin-bottom: 15px;
+		&--ja {
+			font-size: 3.6rem;
+			font-weight: normal;
+			letter-spacing: 0.22em;
+			font-family: "Noto Sans JP";
+			text-align: center;
+			margin-bottom: 56px;
+		}
+	}
+	&__info {
+		width: 25%;
+		background-color: $cblack;
+		font-family: "Hiragino Kaku Gothic ProN";
+		font-size: 1.4rem;
+		height: 430px;
+	}
+	&__address {
+		color: $cwhite;
+		margin-left: 54px;
+		margin-top: 122px;
+		line-height: 1.8;
+	}
+	&__time {
+		margin-top: 50px;
+	}
+	}
+
+
