@@ -500,6 +500,7 @@ li {
 .customize {
   height: 700px;
   margin-top: 103px;
+  padding-bottom: 193px;
 }
 
 .customize__title {
@@ -509,12 +510,49 @@ li {
   line-height: 1.1;
   letter-spacing: 0.22em;
   padding-bottom: 20px;
-  border-bottom: 1px dotted #333;
+  border-bottom: 1px dotted #39393B;
   margin-left: 260px;
   max-width: 960px;
 }
 
-.customize__line {
-  border-bottom: 1px dotted #333;
+.customize__wrapper {
+  max-width: 840px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  height: 80px;
+}
+
+.customize__menu {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Noto Sans JP";
+  margin-top: 40px;
+  text-align: center;
+  width: 240px;
+}
+
+.customize__select {
+  border-bottom: 1px dotted #39393B;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.customize__logo {
+  margin-top: 24px;
+}
+
+.customize__topping--text {
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4;
+}
+
+.customize__topping--text:first-of-type {
+  margin-top: 26px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,8 @@
 .customize {
 	height: 700px;
 	margin-top: 103px;
-	
+	padding-bottom: 193px;
+
 	&__title {
 		font-size: 1.6rem;
 		font-family: "Helvetica";
@@ -9,12 +10,42 @@
 		line-height: 1.1;
 		letter-spacing: 0.22em;
 		padding-bottom: 20px;
-		border-bottom: 1px dotted #333;
+		border-bottom: 1px dotted $cblack;
 		margin-left: 260px;
 		max-width: 960px;
 	}
 
-	&__line {
-		border-bottom: 1px dotted #333;
+	&__wrapper {
+		max-width: 840px;
+		display: flex;
+		justify-content: space-between;
+		// background-color: red;
+		// text-align: center;
+		margin: 0 auto;
+		height: 80px;
+	}
+	&__menu {
+		font-size: 1.8rem;
+		font-weight: bold;
+		font-family: "Noto Sans JP";
+		margin-top: 40px;
+		text-align: center;
+		width: 240px;
+	}
+	&__select {
+		border-bottom: 1px dotted $cblack;
+		padding-bottom: 15px;
+		font-weight: bold;
+	}
+	&__logo {
+		margin-top: 24px;
+	}
+	&__topping--text {
+		font-weight: normal;
+		font-size: 1.4rem;
+		line-height: 2.4;
+		&:first-of-type {
+		margin-top: 26px;
+		}
 	}
 }
