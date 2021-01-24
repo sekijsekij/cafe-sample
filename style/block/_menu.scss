@@ -1,24 +1,63 @@
 .menu {
+	// height: 700px;
+	
 	&__wrapper {
-		margin-left: 480px;
-		height: 600px;
+		margin-left: 260px;
+		margin-bottom: 100px;
 	}
 	&__title--en {
 		font-size: 1.4rem;
-		font-family: "Libre Baskerville";
-		letter-spacing: 4px;
+		font-family: "Helvetica";
+		font-weight: 400;
+		letter-spacing: 0.28em;
 	}
 	&__title--ja {
 		font-size: 3.6rem;
 		font-family: "Noto Sans JP";
 		font-weight: 200;
-		letter-spacing: 4px;
+		letter-spacing: 0.22em;
 	}
 	&__text {
 		font-size: 1.4rem;
 		font-family: "Hiragino Kaku Gothic ProN";
 		letter-spacing: 2px;
-		line-height: 30px;
+		line-height: 2.2;
 		margin-top: 56px;
+	}
+	&__en {
+		font-size: 2.4rem;
+		font-family: "Helvetica";
+		margin-top: 25px;
+		letter-spacing: 0.18em;
+	}
+	&__ja {
+		font-size: 1.2rem;
+		font-family: "Noto Sans JP";
+		margin-top: 8px;
+		margin-bottom: 42px;
+		letter-spacing: 0.18em;
+	}
+	&__img {
+		background-size: cover;
+	}
+	&__list {
+		display: flex;
+		font-size: 1.2rem;
+		font-family: "Helvetica";
+		margin-left: 62%;
+		line-height: 2.2;
+	}
+	&__price {
+		font-weight: bold;
+		margin-left: 40px;
+	}
+	&__grid {
+		max-width: 800px;
+		margin: 0 auto;
+		display: grid;
+		gap: 130px;
+		grid-template-columns: 1fr 1fr;
+		margin-top: 6px;
+		margin-bottom: 50px;
 	}
 }

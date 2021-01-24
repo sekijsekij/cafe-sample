@@ -332,6 +332,10 @@ img {
   max-width: 100%;
 }
 
+li {
+  list-style: none;
+}
+
 .fv {
   position: relative;
 }
@@ -368,7 +372,7 @@ img {
   position: absolute;
   top: 75%;
   left: 50%;
-  letter-spacing: 4px;
+  letter-spacing: 0.18em;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -400,7 +404,7 @@ img {
 .concept__title--en {
   font-size: 1.4rem;
   font-family: "Libre Baskerville";
-  letter-spacing: 2px;
+  letter-spacing: 0.28em;
   margin-top: 50px;
 }
 
@@ -408,7 +412,7 @@ img {
   font-size: 3.6rem;
   font-family: "Noto Sans JP";
   font-weight: 200;
-  letter-spacing: 4px;
+  letter-spacing: 0.22em;
   margin-top: -10px;
 }
 
@@ -416,33 +420,101 @@ img {
   font-size: 1.4rem;
   font-family: "Hiragino Kaku Gothic ProN";
   letter-spacing: 2px;
-  line-height: 30px;
+  line-height: 2.1;
   margin-top: 56px;
 }
 
 .menu__wrapper {
-  margin-left: 480px;
-  height: 600px;
+  margin-left: 260px;
+  margin-bottom: 100px;
 }
 
 .menu__title--en {
   font-size: 1.4rem;
-  font-family: "Libre Baskerville";
-  letter-spacing: 4px;
+  font-family: "Helvetica";
+  font-weight: 400;
+  letter-spacing: 0.28em;
 }
 
 .menu__title--ja {
   font-size: 3.6rem;
   font-family: "Noto Sans JP";
   font-weight: 200;
-  letter-spacing: 4px;
+  letter-spacing: 0.22em;
 }
 
 .menu__text {
   font-size: 1.4rem;
   font-family: "Hiragino Kaku Gothic ProN";
   letter-spacing: 2px;
-  line-height: 30px;
+  line-height: 2.2;
   margin-top: 56px;
+}
+
+.menu__en {
+  font-size: 2.4rem;
+  font-family: "Helvetica";
+  margin-top: 25px;
+  letter-spacing: 0.18em;
+}
+
+.menu__ja {
+  font-size: 1.2rem;
+  font-family: "Noto Sans JP";
+  margin-top: 8px;
+  margin-bottom: 42px;
+  letter-spacing: 0.18em;
+}
+
+.menu__img {
+  background-size: cover;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.2rem;
+  font-family: "Helvetica";
+  margin-left: 62%;
+  line-height: 2.2;
+}
+
+.menu__price {
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.menu__grid {
+  max-width: 800px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  gap: 130px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin-top: 6px;
+  margin-bottom: 50px;
+}
+
+.customize {
+  height: 700px;
+  margin-top: 103px;
+}
+
+.customize__title {
+  font-size: 1.6rem;
+  font-family: "Helvetica";
+  font-weight: normal;
+  line-height: 1.1;
+  letter-spacing: 0.22em;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted #333;
+  margin-left: 260px;
+  max-width: 960px;
+}
+
+.customize__line {
+  border-bottom: 1px dotted #333;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+.customize {
+	height: 700px;
+	margin-top: 103px;
+	
+	&__title {
+		font-size: 1.6rem;
+		font-family: "Helvetica";
+		font-weight: normal;
+		line-height: 1.1;
+		letter-spacing: 0.22em;
+		padding-bottom: 20px;
+		border-bottom: 1px dotted #333;
+		margin-left: 260px;
+		max-width: 960px;
+	}
+
+	&__line {
+		border-bottom: 1px dotted #333;
+	}
+}
