@@ -533,6 +533,13 @@ nav.globalMenuSp.active {
   padding-bottom: 203px;
 }
 
+@media screen and (max-width: 850px) {
+  .concept {
+    margin-top: 40px;
+    padding-bottom: 80px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .concept {
     padding-bottom: 100px;
@@ -545,15 +552,15 @@ nav.globalMenuSp.active {
   display: flex;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .concept__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 }
 
@@ -578,7 +585,13 @@ nav.globalMenuSp.active {
   vertical-align: bottom;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
+  .concept__img {
+    margin-top: 8%;
+  }
+}
+
+@media screen and (max-width: 850px) {
   .concept__img {
     width: 100%;
   }
@@ -627,7 +640,7 @@ nav.globalMenuSp.active {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .concept__text--wrapper {
     margin: 0 auto;
   }
@@ -644,7 +657,7 @@ nav.globalMenuSp.active {
   margin-bottom: 100px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .menu__wrapper {
     margin-left: 75px;
   }
@@ -719,7 +732,7 @@ nav.globalMenuSp.active {
   line-height: 2.2;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .menu__list {
     margin-left: 50%;
   }
@@ -742,7 +755,7 @@ nav.globalMenuSp.active {
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .menu__grid {
     gap: 4%;
     margin-left: 4%;
@@ -924,7 +937,7 @@ nav.globalMenuSp.active {
   line-height: 1.8;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .access__address {
     margin-top: 42px;
     padding-left: 4%;
@@ -947,7 +960,7 @@ nav.globalMenuSp.active {
   overflow: hidden;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .news {
     margin: 0 auto;
   }
@@ -968,7 +981,7 @@ nav.globalMenuSp.active {
   margin-bottom: 15px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .news__title {
     padding-left: 8%;
   }
@@ -982,7 +995,7 @@ nav.globalMenuSp.active {
   margin-bottom: 56px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .news__title--ja {
     padding-left: 8%;
   }
