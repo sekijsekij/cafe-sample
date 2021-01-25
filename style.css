@@ -784,12 +784,15 @@ li {
 .news {
   margin-left: 260px;
   overflow: hidden;
+<<<<<<< HEAD
 }
 
 @media screen and (max-width: 375px) {
   .news {
     margin-left: 4%;
   }
+=======
+>>>>>>> f2a2afdcec20200580f91b3f17e61ee593e498e2
 }
 
 .news__title {
@@ -817,12 +820,15 @@ li {
   margin-right: 40px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 375px) {
   .news__img {
     margin-right: 20px;
   }
 }
 
+=======
+>>>>>>> f2a2afdcec20200580f91b3f17e61ee593e498e2
 .news__img--2 {
   background-image: url(./img/news2.jpg);
   background-size: cover;
@@ -833,12 +839,15 @@ li {
   margin-right: 40px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 375px) {
   .news__img--2 {
     margin-right: 20px;
   }
 }
 
+=======
+>>>>>>> f2a2afdcec20200580f91b3f17e61ee593e498e2
 .news__img--3 {
   background-image: url(./img/news3.jpg);
   background-size: cover;
@@ -849,12 +858,15 @@ li {
   margin-right: 40px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 375px) {
   .news__img--3 {
     margin-right: 20px;
   }
 }
 
+=======
+>>>>>>> f2a2afdcec20200580f91b3f17e61ee593e498e2
 .news__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -898,6 +910,7 @@ li {
   margin-bottom: 27px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 375px) {
   .news__text {
     font-size: 1.4rem;
@@ -907,6 +920,8 @@ li {
   }
 }
 
+=======
+>>>>>>> f2a2afdcec20200580f91b3f17e61ee593e498e2
 .news__more {
   font-size: 1.4rem;
   font-family: "Hiragino Kaku Gothic ProN";
@@ -964,6 +979,7 @@ a {
   margin: auto;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 375px) {
   .footer__bottom {
     top: 92%;
@@ -1011,5 +1027,10 @@ span {
     top: 40px;
     left: -90px;
   }
+=======
+span {
+  margin-left: 8px;
+  margin-right: 8px;
+>>>>>>> f2a2afdcec20200580f91b3f17e61ee593e498e2
 }
 /*# sourceMappingURL=style.css.map */
