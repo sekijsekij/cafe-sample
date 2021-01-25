@@ -8,6 +8,11 @@
 
 	&__wrapper{
 		display: flex;
+		@include mq(md) {
+			display: flex;
+			flex-direction: column;
+
+		} 
 
 		@include mq(sm) {
 			display: flex;
@@ -22,8 +27,10 @@
 		width: 550px;
 		margin-right: 120px;
 		vertical-align: bottom;
-		object-fit: cover;
-
+		
+		@include mq(md) {
+			width: 100%;
+		}
 		@include mq(sm) {
 			width: 375px;
 			height: 200px;
@@ -59,6 +66,9 @@
 		}
 	}
 	&__text--wrapper {
+		@include mq(md) {
+			margin: 0 auto;
+		}
 		@include mq(sm) {
 			margin-left: 21px;
 		}

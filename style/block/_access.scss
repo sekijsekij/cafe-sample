@@ -1,6 +1,6 @@
 .access {
 	margin-top: 293px;
-	
+
 	@include mq(sm) {
 		margin-top: 100px;
 	}
@@ -63,6 +63,10 @@
 		margin-right: 6%;
 		margin-top: 122px;
 		line-height: 1.8;
+		@include mq(md) {
+			margin-top: 42px;
+			padding-left: 4%;
+		}
 		@include mq(sm) {
 			margin-top: 22px;
 			padding-left: 4%;

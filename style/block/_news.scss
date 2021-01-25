@@ -1,6 +1,9 @@
 .news {
 	margin-left: 260px;
 	overflow: hidden;
+	@include mq(md) {
+		margin: 0 auto;
+	}
 	@include mq(sm) {
 		margin-left: 4%;
 	}
@@ -12,6 +15,9 @@
 		font-weight: normal;
 		margin-top: 103px;
 		margin-bottom: 15px;
+		@include mq(md) {
+			padding-left: 8%;
+		}
 
 		&--ja {
 			font-size: 3.6rem;
@@ -19,6 +25,9 @@
 			letter-spacing: 0.22em;
 			font-family: "Noto Sans JP";
 			margin-bottom: 56px;
+			@include mq(md) {
+				padding-left: 8%;
+			}
 		}
 	}
 	&__img {
