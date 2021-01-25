@@ -14,12 +14,13 @@
 		display: flex;
 		@include mq(md) {
 			display: flex;
-			flex-direction: column-reverse;
+			flex-direction: column;
 		} 
 
 		@include mq(sm) {
 			display: flex;
 			flex-direction: column;
+			margin-top: 8%;
 		}
 	}
 
@@ -30,6 +31,7 @@
 		width: 550px;
 		margin-right: 120px;
 		vertical-align: bottom;
+
 		@include mq(md) {
 			margin-top: 8%;
 		}

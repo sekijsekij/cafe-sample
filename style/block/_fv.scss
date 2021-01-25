@@ -1,13 +1,14 @@
 .fv {
 position: relative;
 	&__wrapper {
-		background-image: url(./img/FV.png);
+		background-image: url(./img/FV.png);	
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
 
 		@include mq(sm) {
 			width: 375px;
+			margin-bottom: 28%;
 		}
 	
 	}

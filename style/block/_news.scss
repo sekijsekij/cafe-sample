@@ -3,10 +3,9 @@
 	overflow: hidden;
 	@include mq(md) {
 		margin: 0 auto;
+		padding-left: 4%;
 	}
-	@include mq(sm) {
-		margin-left: 4%;
-	}
+
 
 	&__title {
 		font-size: 1.4rem;
@@ -15,6 +14,7 @@
 		font-weight: normal;
 		margin-top: 103px;
 		margin-bottom: 15px;
+
 		@include mq(md) {
 			padding-left: 8%;
 		}
@@ -25,6 +25,7 @@
 			letter-spacing: 0.22em;
 			font-family: "Noto Sans JP";
 			margin-bottom: 56px;
+
 			@include mq(md) {
 				padding-left: 8%;
 			}
@@ -74,6 +75,9 @@
 		border-top: 1px dotted $cblack;
 		border-bottom: 1px dotted $cblack;
 		width: 960px;
+		@include mq(md) {
+			width: 96%;
+		}
 	}
 	&__tag--wrapper {
 		display: flex;
@@ -87,6 +91,7 @@
 		background-color: #ea8e03;
 		color: $cwhite;
 		font-family: "Hiragino Kaku Gothic ProN";
+		font-family: 600;
 		margin-left: 35px;
 		width: 94px;
 		text-align: center;

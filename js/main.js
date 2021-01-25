@@ -9,3 +9,14 @@ $(function() {
 			}
 	});
 });
+$(function() {
+	$('.hamburger').click(function() {
+			$(this).toggleClass('fix');
+
+			if ($(this).hasClass('fix')) {
+					$('body').addClass('fix');
+			} else {
+					$('body').removeClass('fix');
+			}
+	});
+});
