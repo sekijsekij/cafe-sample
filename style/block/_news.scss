@@ -1,15 +1,9 @@
 .news {
-<<<<<<< HEAD
 	margin-left: 260px;
 	overflow: hidden;
 	@include mq(sm) {
 		margin-left: 4%;
 	}
-=======
-	// height: 500px;
-	margin-left: 260px;
-	overflow: hidden;
->>>>>>> f2a2afdcec20200580f91b3f17e61ee593e498e2
 
 	&__title {
 		font-size: 1.4rem;
@@ -33,13 +27,10 @@
 		width: 100px;
 		height: 100px;
 		margin-right: 40px;
-<<<<<<< HEAD
 
 		@include mq(sm) {
 			margin-right: 20px;
 		}
-=======
->>>>>>> f2a2afdcec20200580f91b3f17e61ee593e498e2
 		&--2 {
 			background-image: url(./img/news2.jpg);
 			background-size: cover;
@@ -48,12 +39,9 @@
 			width: 100px;
 			height: 100px;
 			margin-right: 40px;
-<<<<<<< HEAD
 			@include mq(sm) {
 				margin-right: 20px;
 			}
-=======
->>>>>>> f2a2afdcec20200580f91b3f17e61ee593e498e2
 		}
 		&--3 {
 			background-image: url(./img/news3.jpg);
@@ -63,13 +51,10 @@
 			width: 100px;
 			height: 100px;
 			margin-right: 40px;
-<<<<<<< HEAD
 
 			@include mq(sm) {
 				margin-right: 20px;
 			}
-=======
->>>>>>> f2a2afdcec20200580f91b3f17e61ee593e498e2
 		}
 	}
 	&__wrapper {
@@ -103,7 +88,6 @@
 		line-height: 2.7;
 		font-weight: 600;
 		margin-bottom: 27px;
-<<<<<<< HEAD
 
 		@include mq(sm) {
 			font-size: 1.4rem;
@@ -111,8 +95,6 @@
 			margin-top: 21px;
 			margin-bottom: 7px;
 		}
-=======
->>>>>>> f2a2afdcec20200580f91b3f17e61ee593e498e2
 	}
 	&__more {
 		font-size: 1.4rem;

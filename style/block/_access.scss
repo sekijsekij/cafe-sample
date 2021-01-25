@@ -1,11 +1,9 @@
 .access {
 	margin-top: 293px;
-<<<<<<< HEAD
+	
 	@include mq(sm) {
 		margin-top: 100px;
 	}
-=======
->>>>>>> f2a2afdcec20200580f91b3f17e61ee593e498e2
 
 	&__wrapper {
 		display: flex;
