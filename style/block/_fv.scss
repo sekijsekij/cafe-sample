@@ -5,6 +5,7 @@ position: relative;
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
+
 		@include mq(sm) {
 			width: 375px;
 		}
@@ -15,7 +16,6 @@ position: relative;
 		max-height: 700px;
 		width: 100%;
 		background-color: rgba(0,0,0,0.3);
-		object-fit: cover;
 	}
 	&__logo {
 		position: absolute;
