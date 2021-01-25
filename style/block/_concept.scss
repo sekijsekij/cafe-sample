@@ -1,10 +1,17 @@
 .concept {
 	margin-top: 140px;
 	padding-bottom: 203px;
+	@include mq(sm) {
+		padding-bottom: 100px;
+	}
 
 	&__wrapper{
 		display: flex;
-		// overflow: hidden;
+
+		@include mq(sm) {
+			display: flex;
+			flex-direction: column;
+		}
 	}
 
 	&__img {
@@ -15,6 +22,12 @@
 		margin-right: 120px;
 		vertical-align: bottom;
 		object-fit: cover;
+
+		@include mq(sm) {
+			width: 375px;
+			height: 200px;
+			margin-top: -60px;
+		}
 	}
 	&__title--en {
 		font-size: 1.4rem;
@@ -28,12 +41,23 @@
 		font-weight: 200;
 		letter-spacing: 0.22em;
 		margin-top: -10px;
+		@include mq(sm) {
+			font-size: 3.2rem;
+		}
 	}
 	&__text {
 		font-size: 1.4rem;
 		font-family: "Hiragino Kaku Gothic ProN";
-		letter-spacing: 2px;
+		letter-spacing: .22em;
 		line-height: 2.1;
 		margin-top: 56px;
+		@include mq(sm) {
+			width: 95%;
+		}
+	}
+	&__text--wrapper {
+		@include mq(sm) {
+			margin-left: 21px;
+		}
 	}
 }

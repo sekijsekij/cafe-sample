@@ -1,6 +1,9 @@
 .customize {
 	margin-bottom: 140px;
 	margin-top: 103px;
+	@include mq(sm) {
+		display: none;
+	}
 
 	&__title {
 		font-size: 1.6rem;
@@ -37,6 +40,10 @@
 	&__logo {
 		margin-top: 24px;
 	}
+	&__topping {
+		padding: 0px;
+
+		}
 	&__topping--text {
 		font-weight: normal;
 		font-size: 1.4rem;
@@ -44,6 +51,10 @@
 
 		&:first-of-type {
 			margin-top: 26px;
+			text-indent: .8em;
+		}
+		&:last-of-type {
+			text-indent: -2em;
 		}
 	}
 }

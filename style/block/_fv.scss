@@ -5,6 +5,9 @@ position: relative;
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
+		@include mq(sm) {
+			width: 375px;
+		}
 	
 	}
 	&__filter {
@@ -34,6 +37,11 @@ position: relative;
     -webkit-transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
 		white-space: nowrap;
+
+		@include mq(sm) {
+			font-size: 1.8rem;
+			letter-spacing: 0;
+		}
 	}
 
 	

@@ -1,9 +1,10 @@
 .menu {
-	// height: 700px;
-	
 	&__wrapper {
 		margin-left: 260px;
 		margin-bottom: 100px;
+		@include mq(sm) {
+			margin-left: 6%;
+		}
 	}
 	&__title--en {
 		font-size: 1.4rem;
@@ -16,13 +17,19 @@
 		font-family: "Noto Sans JP";
 		font-weight: 200;
 		letter-spacing: 0.22em;
+		@include mq(sm) {
+			font-size: 3.2rem;
+		}
 	}
 	&__text {
 		font-size: 1.4rem;
 		font-family: "Hiragino Kaku Gothic ProN";
-		letter-spacing: 2px;
 		line-height: 2.2;
 		margin-top: 56px;
+		@include mq(sm) {
+			width: 95%;
+			margin-top: 45px;
+		}
 	}
 	&__en {
 		font-size: 2.4rem;
@@ -59,5 +66,15 @@
 		grid-template-columns: 1fr 1fr;
 		margin-top: 6px;
 		margin-bottom: 50px;
+
+		@include mq(sm) {
+			width: 375px;
+			padding-left: 4%;
+			padding-right: 4%;
+			display: grid;
+			grid-template-columns: 1fr;
+		gap: 60px;
+
+		}
 	}
 }

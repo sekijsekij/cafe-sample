@@ -6,6 +6,7 @@ body {
 	font-family: "Noto Serif JP";
 	color: #39393B;
 	background-color: #F8F7F5;
+
 }
 
 img {
@@ -14,4 +15,25 @@ img {
 }
 li {
 	list-style: none;
+}
+/* 画面幅が1024px以上の時は */
+@media screen and (min-width: 1024px) {
+  .ps-br{
+    display: block; /* PCを改行して */
+  }
+
+  .sp-br{
+    display: none; /* SPの改行を隠す */
+  }
+}
+
+/* 画面幅が560px以下の時は */
+@media screen and (max-width: 560px) {
+  .ps-br{
+    display: none; /* PCの改行を隠して */
+  }
+
+  .sp-br{
+    display: block; /* SPを改行する */
+  }
 }

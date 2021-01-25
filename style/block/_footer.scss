@@ -2,4 +2,75 @@
 	height: 404px;
 	width: 100%;
 	background-color: $cblack;
+	margin-top: 100px;
+	position: relative;
+
+	&__logo {
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		margin: auto;
+	}
+	&__nav {
+		display: flex;
+		position: absolute;
+		top: 64%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		margin: auto;
+	}
+	&__menu {
+		color: $cwhite;
+		font-family: "Helvetica";
+		font-size: 1.4rem;
+		line-height: 3;
+	}
+	&__bottom {
+		color: $cwhite;
+		font-family: "Helvetica";
+		position: absolute;
+		top: 84%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		margin: auto;
+		@include mq(sm) {
+			top: 92%;
+		}
+	}
+}
+span {
+	margin-left: 8px;
+	margin-right: 8px;
+	@include mq(sm) {
+		display: none;
+	}
+}
+.concept__f {
+	@include mq(sm) {
+		position: absolute;
+		top: 0;
+		left: -100px;
+	}
+}
+.menu__f {
+	@include mq(sm) {
+		position: absolute;
+		top: 40px;
+		left: 65px;
+	}
+}
+.access__f {
+	@include mq(sm) {
+		position: absolute;
+		top: 0;
+		left: 60px;
+	}
+}
+.news__f {
+	@include mq(sm) {
+		position: absolute;
+		top: 40px;
+		left: -90px;
+	}
 }
